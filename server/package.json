@@ -1,0 +1,39 @@
+{
+  "name": "ds-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "eslint **/*.js",
+    "start": "node src/app.js",
+    "dev": "nodemon --exec npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0ctoIT/ds-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0ctoIT/ds-vue/issues"
+  },
+  "homepage": "https://github.com/0ctoIT/ds-vue#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "joi": "^11.0.2",
+    "jsonwebtoken": "^8.0.1",
+    "morgan": "^1.8.2",
+    "sequelize": "^4.8.4",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1",
+    "eslint": "^4.7.0",
+    "nodemon": "^1.12.1"
+  }
+}
